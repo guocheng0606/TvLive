@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="资讯">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_menu_home"
+                android:checkable="true"
+                android:checked="true"
+                android:title="首页" />
+            <item
+                android:id="@+id/nav_live"
+                android:icon="@drawable/ic_menu_tv"
+                android:checkable="true"
+                android:title="电视直播" />
+        </menu>
+    </item>
+
+    <item android:title="选项">
+        <menu>
+            <item
+                android:id="@+id/nav_custom"
+                android:icon="@drawable/ic_menu_custom"
+                android:checkable="true"
+                android:title="自定义播放源" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_settings"
+                android:checkable="true"
+                android:title="设置" />
+            <item
+                android:id="@+id/nav_donate"
+                android:icon="@drawable/ic_menu_favorite"
+                android:checkable="false"
+                android:title="捐赠开发者" />
+            <item
+                android:id="@+id/nav_adout"
+                android:icon="@drawable/ic_menu_about"
+                android:checkable="true"
+                android:title="关于" />
+        </menu>
+    </item>
+</menu>
